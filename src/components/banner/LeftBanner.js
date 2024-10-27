@@ -5,7 +5,7 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["HACKER", "MODDER", "CRACKER"],
+      words: ["Developer", "Gamer", "Hacker"],
       loop: true,
       typeSpeed: 80,
       deleteSpeed: 80,
@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Anonymus</span>
+          Hi, I'm <span className="text-designColor capitalize">ZetsuCoder</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
