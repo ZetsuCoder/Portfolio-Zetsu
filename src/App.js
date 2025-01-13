@@ -9,6 +9,7 @@ import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
 import ScrollToTop from "react-scroll-to-top";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
@@ -25,6 +26,21 @@ function App() {
         <Footer />
         <FooterBottom />
       </div>
+
+      <AnimatedCursor
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={2}
+  outerAlpha={0}
+  hasBlendMode={true}
+  innerStyle={{
+    backgroundColor: 'red'
+  }}
+  outerStyle={{
+    border: '3px solid white'
+  }}
+/> 
     </div>
   );
 }

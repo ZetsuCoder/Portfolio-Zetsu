@@ -20,7 +20,7 @@ const ContactLeft = () => {
           ipsam autem cumque, accusantium dicta odio.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+998 905800764</span>
+          Telegram: <span className="text-lightText">@zetsucoder</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">codewiizard@gmail.com</span>

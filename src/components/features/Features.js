@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { SiProgress, SiAntdesign,  } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from './Card';
+import { TbApi } from "react-icons/tb";
 
 const Features = () => {
   return (
@@ -14,44 +15,37 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
+          title="Frontend Development"
+          des="Building responsive and visually appealing user interfaces using modern technologies like React.js, Tailwind CSS, and more."
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Backend Development"
+          des="Creating robust and scalable backend systems with Node.js, Express.js, and integrating with databases like MongoDB."
           icon={<AiFillAppstore />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
-        />
-        <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Mobile App Development"
+          des="Designing and developing cross-platform mobile applications with frameworks like React Native and Flutter."
           icon={<FaMobile />}
         />
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="UI/UX Design"
+          des="Crafting intuitive and user-friendly interfaces using tools like Figma to enhance user experience."
           icon={<SiAntdesign />}
         />
         <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Website Hosting"
+          des="Deploying and managing websites on platforms like AWS, Vercel, and Netlify for optimal performance and reliability."
           icon={<FaGlobe />}
+        />
+        <Card
+          title="API Integration"
+          des="Connecting applications with third-party services and custom APIs to streamline functionality and data exchange."
+          icon={<TbApi />}
         />
       </div>
     </section>
   );
 }
 
-export default Features
+export default Features;
